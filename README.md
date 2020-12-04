@@ -36,7 +36,7 @@ Boilerplate class to support Hilt in your instrumentation tests. To setup this T
 
 for this:
 
-        testInstrumentationRunner "com.hackaprende.todogs.CustomTestRunner"
+        testInstrumentationRunner "your.package.name.CustomTestRunner"
         
 ### EspressoTestUtil.kt
 A class with custom matchers for Espresso that I've been developing and collecting along my career, 
